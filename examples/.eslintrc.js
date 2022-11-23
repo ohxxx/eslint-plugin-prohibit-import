@@ -12,8 +12,9 @@ module.exports = {
   ],
   rules: {
     "prohibit-import/rules": ["error", {
-      exclude: ['./exclude'],
-      pkgs: ['antd'],
+      exclude: ['exclude'],
+      pkgs: ['lodash'],
+      fix: false
     }]
   }
 }

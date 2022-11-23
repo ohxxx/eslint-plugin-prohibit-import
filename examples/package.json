@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./index.ts --fix"
+    "lint": "eslint ./index.js --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.189",
     "eslint": "^8.28.0"
   },
   "dependencies": {
-    "antd": "^5.0.1",
-    "eslint-plugin-prohibit-import": "link:.."
+    "eslint-plugin-prohibit-import": "link:..",
+    "lodash": "^4.17.21"
   }
 }

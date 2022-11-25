@@ -7,15 +7,13 @@
   <p>An ESLint plugin that detects and fixes prohibited imports to packages within a folder.</p>
 </div>
 
-## Usage
-
-**Install**
+## Install
 
 ``` sh
 npm install --save-dev eslint-plugin-prohibit-import
 ```
 
-**Configure**
+## Configuration
 
 ```js
 // Configure in the .eslintrc.js file

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-prohibit-import",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Prohibit Import for ESLint Plugin",
   "main": "./lib/index.js",
   "export": "./lib/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xxx002/eslint-plugin-prohibit-import.git"
+    "url": "git+https://github.com/ohxxx/eslint-plugin-prohibit-import.git"
   },
   "keywords": [
     "eslint",
@@ -19,9 +19,9 @@
   "author": "xxx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xxx002/eslint-plugin-prohibit-import/issues"
+    "url": "https://github.com/ohxxx/eslint-plugin-prohibit-import/issues"
   },
-  "homepage": "https://github.com/xxx002/eslint-plugin-prohibit-import#readme",
+  "homepage": "https://github.com/ohxxx/eslint-plugin-prohibit-import#readme",
   "devDependencies": {
     "eslint": "^8.28.0"
   }

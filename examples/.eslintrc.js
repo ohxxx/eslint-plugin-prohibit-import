@@ -11,9 +11,9 @@ module.exports = {
     "prohibit-import"
   ],
   rules: {
-    "prohibit-import/rules": ["error", {
+    "prohibit-import/config": ["error", {
       exclude: ['exclude'],
-      pkgs: ['lodash'],
+      pkgs: ['lodash', '@radix-ui'],
       fix: false
     }]
   }

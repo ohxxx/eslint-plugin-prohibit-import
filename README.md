@@ -23,10 +23,10 @@ module.exports = {
     "prohibit-import"
   ],
   rules: {
-    "prohibit-import/rules": [
+    "prohibit-import/config": [
       "error", // Tip Status
       {
-        exclude: ['exclude'], // Folders to be excluded from inspection
+        exclude: ['src/utils'], // Folders to be excluded from inspection
         pkgs: ['lodash'], // Name of package to be disabled
         fix: true, // Whether to repair automatically, default true
       }

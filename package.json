@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-prohibit-import",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Prohibit Import for ESLint Plugin",
   "main": "./lib/index.js",
   "export": "./lib/index.js",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/ohxxx/eslint-plugin-prohibit-import#readme",
   "devDependencies": {
-    "eslint": "^8.28.0"
+    "eslint": "^8.49.0"
   }
 }
